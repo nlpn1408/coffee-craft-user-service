@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import jwt from "jsonwebtoken";
-import User, { IUser } from "../models/User";
+import User, { IUser } from "../models/user.model";
 
 export const register = async (req: Request, res: Response) => {
   try {
